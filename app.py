@@ -47,10 +47,9 @@ try:
     custom_cnn_model, transfer_learning_model = load_models()
 
     st.success(
-        "Custom CNN and Transfer Learning models loaded successfully!"
-    )
+        "Custom CNN and Transfer Learning models loaded successfully!")
 
-except Exception as e:
+    except Exception as e:
     st.error(f"Error loading the models: {e}")
     st.stop()
 
