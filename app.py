@@ -27,17 +27,29 @@ st.write(
     "Upload an image of a tomato leaf to determine whether "
     "it is healthy or affected by Tomato Mosaic Virus."
 )
+@st.cache_resource
+def load_models():
+
+    # Custom CNN model
+    custom_cnn_model = tf.keras.models.load_model(
+        "tomato_leaf_cnn_final.keras"
+    )
+
+    # Transfer Learning model
+    transfer_learning_model = tf.keras.models.load_model(
+        "custom_cnn_best.keras"
+    )
+
+    return custom_cnn_model, transfer_learning_model
 
 
-# Path to the saved Custom CNN model
-CNN_MODEL_PATH = "tomato_leaf_cnn_final.keras"
+# Load both models
+custom_cnn_model, transfer_learning_model = load_models()
 
-# Load the Custom CNN model
-cnn_model = tf.keras.models.load_model(
-    CNN_MODEL_PATH
-)
+# Display confirmation
+st.success("Custom CNN and Transfer Learning models loaded successfully!")
 
-st.success("Custom CNN model loaded successfully!")
+
 # Class names must follow the same order used during training
 
 class_names = [
