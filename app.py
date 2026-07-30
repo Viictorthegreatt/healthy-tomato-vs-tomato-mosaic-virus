@@ -30,17 +30,15 @@ st.write(
 @st.cache_resource
 def load_models():
     try:
-    # Custom CNN model
-    custom_cnn_model = tf.keras.models.load_model(
-        "tomato_leaf_cnn_final.keras"
-    )
+        # Custom CNN model
+        custom_cnn_model = tf.keras.models.load_model(
+        "tomato_leaf_cnn_final.keras")
 
-    # Transfer Learning model
-    transfer_learning_model = tf.keras.models.load_model(
-        "custom_cnn_best.keras"
-    )
+        # Transfer Learning model
+        transfer_learning_model = tf.keras.models.load_model(
+        "custom_cnn_best.keras")
 
-    return custom_cnn_model, transfer_learning_model
+        return custom_cnn_model, transfer_learning_model
 
 
 # Load both models
