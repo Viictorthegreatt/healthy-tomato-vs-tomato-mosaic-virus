@@ -29,7 +29,7 @@ st.write(
 
 @st.cache_resource
 def load_models():
-
+    try:
     # Custom CNN model
     custom_cnn_model = tf.keras.models.load_model(
         "tomato_leaf_cnn_final.keras"
