@@ -30,7 +30,7 @@ st.write(
 
 
 # Path to the saved Custom CNN model
-CNN_MODEL_PATH = "models/tomato_leaf_cnn_final.keras"
+CNN_MODEL_PATH = "tomato_leaf_cnn_final.keras"
 
 # Load the Custom CNN model
 cnn_model = tf.keras.models.load_model(
