@@ -83,7 +83,8 @@ healthy-tomato-vs-tomato-mosaic-virus/
 ```
 
 
-**## 🔗File Description**
+## 🔗 File Description
+
 • app.py – Contains the Streamlit application code.
 
 • tomato_leaf_cnn_final.keras – Saved Custom CNN model.
@@ -95,6 +96,7 @@ healthy-tomato-vs-tomato-mosaic-virus/
 • README.md – Provides information and instructions for the project.
 
 **🔗 Running Locally**
+
 ° Clone the repository: Viictorthegreatt/healthy-tomato-vs-tomato-mosaic-virus
 
 ° Move into the project directory: cd healthy-tomato-vs-tomato-mosaic-virus
@@ -107,10 +109,12 @@ healthy-tomato-vs-tomato-mosaic-virus/
 
 
 **🔗 Tools Used**
+
 Python · TensorFlow · Keras · Streamlit · NumPy · Pillow · Git · GitHub · Streamlit Community Cloud
 
 
 **🔗 Challenges Encountered**
+
 Several challenges were encountered during the development and deployment of the application:
 
 • The saved model files were initially missing from the GitHub repository.
@@ -129,7 +133,9 @@ Several challenges were encountered during the development and deployment of the
 
 
 **🔗 Possible Improvements**
+
  Future versions of the application could include:
+
 • Adding more tomato-leaf diseases.
 
 • Training with a larger and more diverse dataset.
@@ -145,6 +151,7 @@ Several challenges were encountered during the development and deployment of the
 • Including information on disease symptoms and possible management methods.
 
 **🔗 Course Information**
+
 Course: Laboratory Exercise 10 – Cloud Computing and AI Model Deployment for Engineering Applications
 
 Project: Healthy Tomato vs Tomato Mosaic Virus Classification
@@ -152,8 +159,10 @@ Project: Healthy Tomato vs Tomato Mosaic Virus Classification
 Deployment Platform: Streamlit Community Cloud
 
 - Streamlit URL: https://healthy-tomato-vs-tomato-mosaic-virus-6bh9bbvb37meky9if329ey.streamlit.app/
+
 - GitHub Repository: Viictorthegreatt/healthy-tomato-vs-tomato-mosaic-virus
 
   **🔗 Authors**
+  
   - Ekpenyong, Victor Isaiah - 23/EG/CE/070
   - 
