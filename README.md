@@ -83,51 +83,77 @@ healthy-tomato-vs-tomato-mosaic-virus/
 ```
 
 
-###File Description
-app.py – Contains the Streamlit application code.
-tomato_leaf_cnn_final.keras – Saved Custom CNN model.
-custom_cnn_best.keras – Saved Transfer Learning model.
-requirements.txt – Contains the Python libraries required to run the application.
-README.md – Provides information and instructions for the project.
+**## 🔗File Description**
+• app.py – Contains the Streamlit application code.
 
-🔗 Running Locally
-Clone the repository: Viictorthegreatt/healthy-tomato-vs-tomato-mosaic-virus
-git clone 
-Move into the project directory:
-cd healthy-tomato-vs-tomato-mosaic-virus
-Install the required libraries:
-pip install -r requirements.txt
-Run the Streamlit application:
-streamlit run app.py
-The application will open in a web browser.
-🔗 Tools Used
+• tomato_leaf_cnn_final.keras – Saved Custom CNN model.
+
+• custom_cnn_best.keras – Saved Transfer Learning model.
+
+• requirements.txt – Contains the Python libraries required to run the application.
+
+• README.md – Provides information and instructions for the project.
+
+**🔗 Running Locally**
+° Clone the repository: Viictorthegreatt/healthy-tomato-vs-tomato-mosaic-virus
+
+° Move into the project directory: cd healthy-tomato-vs-tomato-mosaic-virus
+
+° Install the required libraries: pip install -r requirements.txt
+
+° Run the Streamlit application: streamlit run app.py
+
+° The application will open in a web browser.
+
+
+**🔗 Tools Used**
 Python · TensorFlow · Keras · Streamlit · NumPy · Pillow · Git · GitHub · Streamlit Community Cloud
-🔗 Challenges Encountered
-• Several challenges were encountered during the development and deployment of the application:
+
+
+**🔗 Challenges Encountered**
+Several challenges were encountered during the development and deployment of the application:
+
 • The saved model files were initially missing from the GitHub repository.
+
 • The model file paths in app.py did not match the locations of the saved models.
-• Syntax and indentation errors occurred while using the try and except blocks.
+
+• Syntax and indentation errors occurred while using the try and except blocks
+
 • The application initially loaded only the Custom CNN model instead of both models.
+
 • Streamlit required time to detect changes from GitHub and redeploy the application.
+
 • TensorFlow displayed CUDA warnings because the deployment environment did not have GPU support.
+
 • These challenges were resolved by correctly uploading both model files, updating the model paths, correcting the Python syntax and indentation, and modifying the model-loading function to load and return both models.
-🔗 Possible Improvements
-• Future versions of the application could include:
+
+
+**🔗 Possible Improvements**
+ Future versions of the application could include:
 • Adding more tomato-leaf diseases.
+
 • Training with a larger and more diverse dataset.
+
 • Improving model accuracy and generalization.
+
 • Adding a comparison chart for both models.
+
 • Displaying prediction probabilities visually.
+
 • Adding model-performance metrics.
+
 • Including information on disease symptoms and possible management methods.
 
-🔗 Course Information
+**🔗 Course Information**
 Course: Laboratory Exercise 10 – Cloud Computing and AI Model Deployment for Engineering Applications
+
 Project: Healthy Tomato vs Tomato Mosaic Virus Classification
+
 Deployment Platform: Streamlit Community Cloud
 
 - Streamlit URL: https://healthy-tomato-vs-tomato-mosaic-virus-6bh9bbvb37meky9if329ey.streamlit.app/
 - GitHub Repository: Viictorthegreatt/healthy-tomato-vs-tomato-mosaic-virus
-  🔗 Authors
+
+  **🔗 Authors**
   - Ekpenyong, Victor Isaiah - 23/EG/CE/070
   - 
